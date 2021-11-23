@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'dart:io';
 
 import 'profile_trips.dart';
 import 'home_trips.dart';
@@ -33,7 +34,7 @@ class _SosaTripsCupertino extends State<SosaTripsCupertino> {
     return Scaffold(
         bottomNavigationBar: CupertinoTabScaffold(
       tabBar: CupertinoTabBar(
-          backgroundColor: Color(0x33FFFFFF),
+          backgroundColor: Platform.isIOS ? Color(0x33FFFFFF) : Colors.white,
           activeColor: Colors.indigo,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
