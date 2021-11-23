@@ -8,7 +8,7 @@ class ButtonPurple extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.only(top: 30, left: 20, right: 20, bottom: 20),
+        margin: EdgeInsets.only(top: 15, left: 20, right: 20, bottom: 10),
         child: InkWell(
           onTap: () {
             ScaffoldMessenger.of(context)
