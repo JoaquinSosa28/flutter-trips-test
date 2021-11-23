@@ -12,7 +12,7 @@ class HomeTrips extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(children: [
       ListView(children: [
-        DescriptionPlace("Alto lugar", 2, descDummy),
+        DescriptionPlace("Bahamas 😎", 2, descDummy),
         ReviewList(),
       ]),
       HeaderAppBar()

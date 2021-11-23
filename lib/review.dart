@@ -4,9 +4,9 @@ class Review extends StatelessWidget {
   String imagePath = "assets/img/ricardito.png";
   String name = "Joaquín Sosa";
   String details = "1 review - 5 photos";
-  String comment = "There's an amazing place in your mom";
+  String comment = "It's an amazing place";
 
-  Review(this.imagePath, this.name);
+  Review(this.imagePath, this.name, this.comment);
 
   @override
   Widget build(BuildContext context) {

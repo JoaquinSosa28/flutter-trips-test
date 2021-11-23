@@ -32,13 +32,12 @@ class _SosaTripsCupertino extends State<SosaTripsCupertino> {
   Widget build(BuildContext context) {
     return Scaffold(
         bottomNavigationBar: CupertinoTabScaffold(
-            tabBar: CupertinoTabBar(items: [
-              BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.search), label: "Search"),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.person), label: "Person"),
-            ]),
-            tabBuilder: cupertinoTabBuilder));
+      tabBar: CupertinoTabBar(activeColor: Colors.indigo, items: [
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+        BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
+        BottomNavigationBarItem(icon: Icon(Icons.person), label: "Person"),
+      ]),
+      tabBuilder: cupertinoTabBuilder,
+    ));
   }
 }

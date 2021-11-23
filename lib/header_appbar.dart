@@ -5,6 +5,6 @@ import 'card_image_list.dart';
 class HeaderAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Stack(children: [GradientBack("Bem-vindo"), CardImageList()]);
+    return Stack(children: [GradientBack("Welcome!"), CardImageList()]);
   }
 }
