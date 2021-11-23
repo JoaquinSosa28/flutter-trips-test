@@ -34,7 +34,7 @@ class _SosaTripsCupertino extends State<SosaTripsCupertino> {
     return Scaffold(
         bottomNavigationBar: CupertinoTabScaffold(
       tabBar: CupertinoTabBar(
-          backgroundColor: Platform.isIOS ? Color(0x33FFFFFF) : Colors.white,
+          backgroundColor: Platform.isIOS ? Color(0x33FFFFFF) : null,
           activeColor: Colors.indigo,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
